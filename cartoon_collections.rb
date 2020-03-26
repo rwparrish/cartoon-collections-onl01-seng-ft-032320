@@ -13,6 +13,7 @@ def long_planeteer_calls(calls) # code an argument here
 end
 
 def find_the_cheese(strings)# code an argument here
- strings.include?(cheese_types)
   cheese_types = ["cheddar", "gouda", "camembert"]
+ strings.include?(cheese_types)
+  
 end
