@@ -14,8 +14,7 @@ end
 
 def find_the_cheese(strings)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if strings.find {|cheese| cheese =
-    strings.find
+  if strings.find {|cheese| cheese = cheese_types}
   else
   end
 end
